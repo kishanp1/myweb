@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}Kishan Patel{% endblock %}</title>
+    {% load staticfiles %}
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Satisfy' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="{% static 'myself/style.css' %}"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <ul class="leftmenu">
+  				  <div class="nametag"><div class="logo">Kishan Patel<span>Innovation . Dedication</span></div></div>
+                    <li class="myself"><a class="active" href="#home"> Myself</a></li>
+                    <li class="skillset"><a href="#skills"> Skill Set</a></li>
+                    <li class="projects"><a href="#projects"> Projects</a></li>
+                    <li class="workex"><a href="#workex"> Work Experience</a></li>
+                    <li class="resume"><a href="#resume"> Resume</a></li>
+                </ul>
+
+  {% block body %}
+  {% endblock %}
+  </body>
+  </html>
