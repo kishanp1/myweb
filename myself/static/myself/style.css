@@ -9,7 +9,7 @@
 	background-color: #f1f1f1;
     height: 100%;
     position: fixed;
-    overflow: auto; 
+    overflow: auto;
 
 }
 li a {
@@ -45,13 +45,12 @@ li a:hover:not(.active) {
 }
 
 .logo {
-    height: 60%;
-    padding: 25px 20px 20px 70px;
+  height: 60%;
+  padding: 25px 20px 20px 70px;
 	font-size:210%;
 	position: relative;
-background: rgba(255, 255, 255, 0.5);
+  background: rgba(255, 255, 255, 0.5);
 	font-weight: 600;
-
 }
 .logo span{
 	font-size:15px;
@@ -106,15 +105,17 @@ a:hover, a:visited, a:link, a:active
 
 .myimg
 {
-	background-image:url("/static/images/kishan.png");
-  background-size:cover;
-  border-style:solid;
-  border-width:medium;
-	width:20%;
-	height:30%;
-	position:absolute;
+  position:absolute;
 	margin-top:8%;
 	margin-left:40%;
+ float: left;
+}
+.myimg img
+{
+   height: 25%;
+   width: 25%;
+   border:1px solid #021a40;
+
 }
 .intro
 {
